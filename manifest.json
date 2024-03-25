@@ -1,0 +1,16 @@
+{
+    "name" : "Tab Title Extractor",
+    "description" : "A Simple Chrome Extension To show Chrome Tab Title",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "action" :{
+        "default_popup" : "./popup.html",
+        "default_icon" : "./icon48.png"
+    },
+    "icons" : {
+        "16" : "./icon16.png",
+        "32" : "./icon32.png",
+        "48" : "./icon48.png"
+    },
+    "permissions" : ["activeTab"]
+}
